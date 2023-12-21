@@ -1,0 +1,47 @@
+:root{
+    --color-header : #8B8484;
+    --praimery-color:#C8A87E;
+}
+
+.width-full {
+    width: 100%;
+}
+.height-full {
+    height: 100%;
+}
+.fz-18{
+    font-size: 18px;
+}
+
+.fz-14{
+    font-size: 14px !important;
+}
+
+
+.w-50{
+    width: 40%;
+    display: inline-block;
+}
+
+.fs-50 {
+    font-size: 50px !important;
+}
+.lh-60{
+    line-height: 60px !important;
+}
+.fw-600{
+    font-weight: 600 !important;
+}
+.fw-800 {
+    font-weight: 800 !important;
+}
+
+.fw-1000 {
+    font-weight: 800 !important;
+}
+.fw-500 {
+    font-weight: 500 !important;
+}
+.border-gray {
+    border: 1px solid #E5E5E5 !important;
+}

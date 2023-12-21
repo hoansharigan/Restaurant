@@ -1,0 +1,61 @@
+
+
+/* pc */
+@media (min-width:961px) {
+    .body__about .img:first-child{
+        display: flex;
+        margin-top: -30px;
+    }
+
+    .body__about .img:last-child{
+        display: flex;
+        margin-left: 10px;
+    }
+}
+/* tablet */
+@media (max-width: 960px) {
+    .intro__menu{
+        margin-top: 350px;
+    }
+
+    .intro__menu-dish,
+    .intro__menu-chef{
+        color: #000;
+    }
+
+    .about__img{
+        height: 672px !important;
+    }
+    .container-xl {
+        max-width: 1140px;
+    }
+}
+
+
+/* mobile */
+@media (max-width: 768px) {
+    .intro__menu{
+        margin-top: 300px;
+    }
+    .intro__menu-item {
+        margin-bottom: 16px;
+    }
+
+    .about__heading {
+        margin-top: 56px;
+    }
+
+    .parameter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .staff .img {
+        height: 320px;
+        background-position: top ;
+    }
+}
+

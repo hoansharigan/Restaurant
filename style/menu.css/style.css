@@ -1,0 +1,75 @@
+:root{
+    --color-header : #8B8484;
+    --praimery-color:#C8A87E;
+}
+#nav{
+    padding-top: 450px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(/img/bg_1.jpg.webp);
+    background-size: cover; /* Đảm bảo hình nền được căn chỉnh và không bị co hoặc mở rộng */
+    width: 100%;
+    height: 450px;
+    z-index: -1; /* Đặt lớp overlay phía trên các phần tử khác */
+    filter: brightness(0.3);
+    background-attachment: fixed;
+}
+
+.about__tile {
+    font-weight: 900;
+    color: #fff;
+    font-size: 50px;
+}
+
+.breadcrumb-item.active{
+    color: #fff;
+}
+
+.breadcrumb-item  a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.breadcrumb-item  i::before {
+    color: #fff;
+}
+
+.mt-450 {
+    margin-top: 336px!important;
+}
+
+.type a:hover {
+    cursor: pointer;
+    background-color:#c1a37c;
+    color: #fff !important;
+}
+.type a.active {
+    background-color:var(--praimery-color);
+    color: #fff!important;
+    position: relative;
+}
+
+.type a.active::after {
+    position: absolute ;
+    content: "";
+    left: 50%;
+    bottom: -19px;
+    border-left: 10px solid  transparent;
+    border-top: 10px solid var(--praimery-color);
+    border-right: 10px solid  transparent;
+    border-bottom: 10px solid  transparent;
+}
+
+.tab-panel {
+    display: none;
+    /* opacity: 0;
+    transition: opacity 0.5s ease-in-out; */
+  }
+
+  .tab-panel.active {
+    display: inline-block;
+    /* opacity: 1; */
+  }
